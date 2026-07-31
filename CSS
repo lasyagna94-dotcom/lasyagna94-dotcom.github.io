@@ -1,53 +1,66 @@
 /* General styling for the whole page */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
-    color: #333333;
+    /* Soft, aesthetic light green background */
+    background-color: #e8f0e6;
+    color: #2d3748;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Header section styling */
+/* Header section styling matching the soft green palette */
 header {
-    background-color: #4a90e2;
+    background-color: #3b6e4c;
     color: white;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 8px;
+    font-weight: 300;
 }
 
 /* Main container styling */
 main {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 /* Card layout for content */
 .card {
-    background-color: white;
+    background-color: #ffffff;
     padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
     max-width: 500px;
     width: 100%;
 }
 
-/* Button styling */
+/* Button styling using a complementary deep green */
 button {
-    background-color: #ff6b6b;
+    background-color: #4a8b5c;
     color: white;
     border: none;
     padding: 12px 24px;
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 /* Hover effect for the button */
 button:hover {
-    background-color: #ee5253;
+    background-color: #3b6e4c;
+    transform: translateY(-2px);
 }
 
 /* Utility class to hide elements */
@@ -55,9 +68,10 @@ button:hover {
     display: none;
 }
 
-/* Styling for the secret message when it appears */
+/* Styling for the hidden message when revealed */
 #secretMessage {
-    margin-top: 15px;
+    margin-top: 18px;
     font-weight: bold;
-    color: #10ac84;
+    color: #2e593c;
+    font-style: italic;
 }
