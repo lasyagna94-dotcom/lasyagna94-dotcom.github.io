@@ -1,0 +1,63 @@
+/* General styling for the whole page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header section styling */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main container styling */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Card layout for content */
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Button styling */
+button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #ee5253;
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none;
+}
+
+/* Styling for the secret message when it appears */
+#secretMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #10ac84;
+}
