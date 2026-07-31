@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Change the text content dynamically
         if (message.classList.contains("hidden")) {
-            button.textContent = "Click for a Surprise!";
+            button.textContent = "Click to see my favorite quote!";
         } else {
-            message.textContent = "🎉 You unlocked the secret message! You're officially a web developer!";
-            button.textContent = "Hide Surprise";
+            message.textContent = "✨ 'The best way to predict the future is to create it.' ✨";
+            button.textContent = "Hide Quote";
         }
     });
 });
